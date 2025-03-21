@@ -17,12 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from bookapp import views
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/',views.index,name='home'),
     path('login/',views.login,name='showlogin'),
     path('science-friction/',views.showscience_friction,name='showscience-friction'),
     path('Register/',views.Register,name='Register'),
+    path('Registerview/',views.Registerview,name='Registerview'),
+    path('Logout/',views.logout,name='logout'),
 
 ]

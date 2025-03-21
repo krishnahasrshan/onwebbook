@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'onwebbook.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'book',
+        'NAME': 'onweb',
         'USER': 'root',       # Replace with your MySQL username
-        'PASSWORD': 'Harshan@04',   # Replace with your MySQL password
+        'PASSWORD': 'mohanraj1808',   # Replace with your MySQL password
         'HOST': '127.0.0.1',           # Use 'localhost' or '127.0.0.1'
         'PORT': '3306',      
     }
